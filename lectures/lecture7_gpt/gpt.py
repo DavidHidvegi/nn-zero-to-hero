@@ -8,17 +8,19 @@ block_size = 256 # what is the maximum context length for predictions?
 max_iters = 51 # 5001
 eval_interval = 5 # 500
 learning_rate = 3e-4
-# device = torch.device("mps")
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device("mps")
+# device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 eval_iters = 3 # 200
 n_embd = 384
-n_head = 6
+n_head = 6 
+# head size is n_embd / n_head
 n_layer = 6
 dropout = 0.2
 # -----------------------------
 
 torch.manual_seed(1337)
 
+#!wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 with open('input.txt', 'r', encoding='utf-8') as f: 
     text = f.read()
 
@@ -94,7 +96,7 @@ class MultiHeadAttention(nn.Module):
     def __init__(self, num_heads, head_size):
         super().__init__()
         self.heads = nn.ModuleList([Head(head_size) for _ in range(num_heads)])
-        self.proj = nn.Linear(n_embd, n_embd) # asdfspdfgeoirjgoierngopuierngoiusegjhpoierjgoiejgoipewjrgpoierwjgopeiwrjgoiwerjgoipwerj
+        self.proj = nn.Linear(n_embd, n_embd)
         self.dropout = nn.Dropout(dropout)
 
     def forward(self, x):
@@ -137,7 +139,7 @@ class Block(nn.Module):
 
 
 # super simple bigram model
-class BigramLanguageModel(nn.Module):
+class GPTModel(nn.Module):
 
     def __init__(self):
         super().__init__()
@@ -186,8 +188,10 @@ class BigramLanguageModel(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1) # (B, T+1)
         return idx
     
-model = BigramLanguageModel()
+model = GPTModel()
 m = model.to(device)
+
+print(f"Parameter count: {sum(p.numel() for p in m.parameters())/1e6} M parameters")
 
 # create a Pytorch optimizer
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
