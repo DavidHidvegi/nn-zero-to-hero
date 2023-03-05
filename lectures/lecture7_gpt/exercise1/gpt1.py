@@ -67,46 +67,37 @@ def estimate_loss():
     model.train()
     return out
 
-class Head(nn.Module):
-
-    def __init__(self, head_size):
-        super().__init__()
-        self.H = head_size
-        self.key = nn.Linear(n_embd, head_size, bias=False)
-        self.query = nn.Linear(n_embd, head_size, bias=False)
-        self.value = nn.Linear(n_embd, head_size, bias=False)
-        self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
-
-        self.dropout = nn.Dropout(dropout)
-
-    def forward(self, x):
-        Hs = self.H
-        B, T, C = x.shape
-        k = self.key(x) # (B, T, Hs)
-        q = self.query(x) # (B, T, Hs)
-        # compute attention scores ("affinities")
-        wei = q @ k.transpose(-2, -1) * Hs**-0.5 # (B, T, Hs) @ (B, Hs, T) ---> (B, T, T)
-        wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf'))
-        wei = F.softmax(wei, dim=-1) # (B, T, T)
-        wei = self.dropout(wei)
-        # perform the weighted aggregation of the values
-        v = self.value(x) # (B, T, Hs)
-        out = wei @ v # (B, T, T) @ (B, T, Hs) ---> (B, T, Hs)
-        return out
-    
 class MultiHeadAttention(nn.Module):
-    """Multiple heads of self-attention in parallel"""
 
     def __init__(self, num_heads, head_size):
         super().__init__()
-        self.heads = nn.ModuleList([Head(head_size) for _ in range(num_heads)])
+        self.Hn = num_heads
+        self.Hs = head_size
+        self.attn = nn.Linear(n_embd, 3 * n_embd, bias=False) # key, query and value as one batch
+        self.register_buffer('tril', torch.tril(torch.ones(block_size, block_size)))
+
         self.proj = nn.Linear(n_embd, n_embd)
         self.dropout = nn.Dropout(dropout)
 
     def forward(self, x):
-        out = torch.cat([h(x) for h in self.heads], dim=-1)
-        out = self.proj(out)
-        out = self.dropout(out)
+        Hs = self.Hs
+        Hn = self.Hn
+        B, T, C = x.shape
+        q, k, v = self.attn(x.float()).split(n_embd, dim=-1)
+        q = q.view(B, T, Hn, Hs).transpose(1, 2) # (B, Hn, T, Hs)
+        k = k.view(B, T, Hn, Hs).transpose(1, 2) # (B, Hn, T, Hs)
+        v = v.view(B, T, Hn, Hs).transpose(1, 2) # (B, Hn, T, Hs)
+        # compute attention scores ("affinities")
+        wei = q @ k.transpose(-2, -1) * Hs**-0.5 # (B, Hn, T, Hs) @ (B, Hn, Hs, T) ---> (B, Hn, T, T)
+        wei = wei.masked_fill(self.tril[:T, :T] == 0, float('-inf'))
+        wei = F.softmax(wei, dim=-1) # (B, Hn, T, T)
+        wei = self.dropout(wei)
+        # perform the weighted aggregation of the values
+        out = wei @ v # (B, Hn, T, T) @ (B, Hn, T, Hs) ---> (B, Hn, T, Hs)
+
+        out = out.transpose(1, 2).contiguous().view(B, T, C) # (B, Hn, T, Hs) ---> (B, T, Hn * Hs)
+        out = self.proj(out) # from MHA
+        out = self.dropout(out) # from MHA
         return out
 
 class FeedForward(nn.Module):
