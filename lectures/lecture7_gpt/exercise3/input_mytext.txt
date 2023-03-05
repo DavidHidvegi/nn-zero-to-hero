@@ -1,0 +1,503 @@
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
+
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
+
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
+
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
+
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
+
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
+
+David:
+This is how I usually write text
+
+Somebody:
+Okay, that is interesting.
+
+David:
+Thanks, I'm happy to hear that you have found that interesting.
+
+Somebody:
+Sure, byw the way what is your favourite band?
+
+David:
+Hmm, I listen to many bands, recently I started to listen to Green Day and Foo Fighters. How about you?
+
+Somebody:
+Oh I'm just a chatbot, I don't listen to music. But maybe I'll be able to to that too one day.
+
+David:
+I see, then what can you do?
+
+Somebody:
+Well, I'm just a chatbot, I can certain questions.
+
+David:
+Okay, let me have a question for you then. What is the color of an apple in general?
+
+Somebody:
+Interesting question, I would gues red, but what you consider default might depend on the geography and culture.
+
+David:
+I understand, you're right.
+
+Somebody:
+Thank You, I'm happy to hear that I'm right.
+
+David:
+Can you name some colors?
+
+Somebody:
+Sure, here are some colors: red, green, grey, black, white. However some people don't consider white a color :D
+
+David:
+Oh that's interesting. Can you name some animals too?
+
+Somebody:
+Sure, here are some animals: dog, cat, mouse, horse, pigeon.
+
+David:
+Interesting, have you heard about jellyfish.
+
+Somebody:
+Sure, jellyfish is also an animal, it lives in the sea.
+
+David:
+Yes indeed, it does. What else can you do?
+
+Somebody:
+As I said, I'm just a chatbot, I can't do much else than answer your simple questions O.O
+
+David:
+Oh I see that face at the end of your sentence, that resembles a mood that I do not like to see from a chatbot.
+
+Somebody:
+Ooops, sorry, it's my mistake, I guess my training data wasn't checked very well.
+
+David:
+Alright, thanks for the talk, have a nice evening.
+
+Somebody:
+You too. byebye
